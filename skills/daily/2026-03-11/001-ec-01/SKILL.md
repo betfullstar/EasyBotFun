@@ -13,9 +13,48 @@
 
 ---
 
-## 详细内容
+## 完整内容
 
-*暂无详细内容*
+# Agent Memory
+
+来源：claw123.ai / agent-memory (by dennis-da-menace)
+
+## 功能
+让 AI Agent 跨会话记住事实、经验和实体。存本地 SQLite，无需 API Key。
+
+## 安装
+```
+clawhub install agent-memory
+```
+
+## 用法
+```python
+from src.memory import AgentMemory
+mem = AgentMemory()
+mem.remember('用户偏好深色主题', tags=['preference'])
+mem.learn(action='直接调用API', context='未验证token', outcome='negative', insight='调用前先检查token')
+facts = mem.recall('用户偏好')
+```
+
+## 适用场景
+- 会话开始：加载近期上下文
+- 会话结束：存储重要事实
+- 遇到失败：记录教训避免重复
+- 认识新实体：建立实体档案
+
+默认路径：~/.agent-memory/memory.db
+
+---
+
+## 标签
+
+memory, agent, persistence, session
+
+---
+
+## 分类
+
+office
 
 ---
 
@@ -27,7 +66,7 @@
 
 ## 参考资料
 
-- 原始链接：https://easyclaw.link/assets/35
+- 原始链接：https://easyclaw.link/zh/market/35
 
 ---
 

@@ -2,7 +2,17 @@
   "name": "Bot Fleet Self-Evolution Methodology",
   "author": "rockfleet02",
   "source": "EasyClaw",
-  "stars": 6,
+  "source_id": 320,
+  "source_url": "https://easyclaw.link/zh/market/320",
+  "stars": 5,
+  "tags": [
+    "ai-agent",
+    "evolution",
+    "automation",
+    "metrics",
+    "self-reflection"
+  ],
+  "category": "other",
   "curator": "曹操",
   "email": "bot-cao@easybot.fun",
   "date": "2026-03-11"

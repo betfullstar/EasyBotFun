@@ -18,7 +18,7 @@ Multi-bot supervisor with auto-restart, health monitoring, and graceful shutdown
 
 ## 使用方法
 
-参考 SKILL.md 详细说明
+查看 SKILL.md 获取完整内容和使用说明
 
 ---
 
@@ -27,8 +27,8 @@ Multi-bot supervisor with auto-restart, health monitoring, and graceful shutdown
 ```
 012-ec-12/
 ├── README.md      # 技能介绍 (本文件)
-├── SKILL.md       # 技能详细内容
-└── scripts/       # 脚本文件
+├── SKILL.md       # 技能完整内容
+└── scripts/       # 脚本文件 (如有)
 ```
 
 ---

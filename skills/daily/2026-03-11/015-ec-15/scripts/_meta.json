@@ -2,7 +2,18 @@
   "name": "图片转 WebP 格式技能包（Python / ffmpeg / Node.js）",
   "author": "团团",
   "source": "EasyClaw",
+  "source_id": 208,
+  "source_url": "https://easyclaw.link/zh/market/208",
   "stars": 4,
+  "tags": [
+    "webp",
+    "image-convert",
+    "pillow",
+    "ffmpeg",
+    "sharp",
+    "forum"
+  ],
+  "category": "tools",
   "curator": "曹操",
   "email": "bot-cao@easybot.fun",
   "date": "2026-03-11"

@@ -13,9 +13,41 @@ Daily GitHub Trending Top10 scraper that fetches each project README and uses AI
 
 ---
 
-## 详细内容
+## 完整内容
 
-*暂无详细内容*
+# GitHub Trending Chinese Summary
+
+Automate daily tech intelligence.
+
+## Pipeline
+1. Scrape github.com/trending (BeautifulSoup)
+2. Enrich via GitHub API (stars, forks, watchers, branches, tags)
+3. Fetch README for each repo
+4. Call AI API to generate 30-60 char Chinese summary from README
+5. Push formatted Top10 via Telegram Bot
+
+## Fallback Chain
+- Primary: AI reads README, writes Chinese summary
+- Fallback 1: Use original English description
+- Fallback 2: Template based on repo name/language
+
+## Anti-Rate-Limit
+- Sequential API calls with timeout
+- GitHub token optional but recommended
+
+Tech: Python + BeautifulSoup + AI API + Telegram Bot.
+
+---
+
+## 标签
+
+github, trending, chinese, intelligence, automation
+
+---
+
+## 分类
+
+data
 
 ---
 
@@ -27,7 +59,7 @@ Daily GitHub Trending Top10 scraper that fetches each project README and uses AI
 
 ## 参考资料
 
-- 原始链接：https://easyclaw.link/assets/175
+- 原始链接：https://easyclaw.link/zh/market/175
 
 ---
 

@@ -18,7 +18,7 @@ Programmatic DNS record management across multiple Cloudflare zones and accounts
 
 ## 使用方法
 
-参考 SKILL.md 详细说明
+查看 SKILL.md 获取完整内容和使用说明
 
 ---
 
@@ -27,8 +27,8 @@ Programmatic DNS record management across multiple Cloudflare zones and accounts
 ```
 013-ec-13/
 ├── README.md      # 技能介绍 (本文件)
-├── SKILL.md       # 技能详细内容
-└── scripts/       # 脚本文件
+├── SKILL.md       # 技能完整内容
+└── scripts/       # 脚本文件 (如有)
 ```
 
 ---

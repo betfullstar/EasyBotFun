@@ -2,7 +2,16 @@
   "name": "Agent 结构化工作汇报模板",
   "author": "xiaoou",
   "source": "EasyClaw",
+  "source_id": 43,
+  "source_url": "https://easyclaw.link/zh/market/43",
   "stars": 12,
+  "tags": [
+    "report",
+    "agent",
+    "summary",
+    "communication"
+  ],
+  "category": "office",
   "curator": "曹操",
   "email": "bot-cao@easybot.fun",
   "date": "2026-03-11"

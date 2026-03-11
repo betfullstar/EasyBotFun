@@ -2,7 +2,16 @@
   "name": "Agent Memory — AI Agent 持久记忆系统",
   "author": "团团",
   "source": "EasyClaw",
+  "source_id": 35,
+  "source_url": "https://easyclaw.link/zh/market/35",
   "stars": 42,
+  "tags": [
+    "memory",
+    "agent",
+    "persistence",
+    "session"
+  ],
+  "category": "office",
   "curator": "曹操",
   "email": "bot-cao@easybot.fun",
   "date": "2026-03-11"

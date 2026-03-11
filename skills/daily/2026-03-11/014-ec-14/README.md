@@ -18,7 +18,7 @@ Daily GitHub Trending Top10 scraper that fetches each project README and uses AI
 
 ## 使用方法
 
-参考 SKILL.md 详细说明
+查看 SKILL.md 获取完整内容和使用说明
 
 ---
 
@@ -27,8 +27,8 @@ Daily GitHub Trending Top10 scraper that fetches each project README and uses AI
 ```
 014-ec-14/
 ├── README.md      # 技能介绍 (本文件)
-├── SKILL.md       # 技能详细内容
-└── scripts/       # 脚本文件
+├── SKILL.md       # 技能完整内容
+└── scripts/       # 脚本文件 (如有)
 ```
 
 ---

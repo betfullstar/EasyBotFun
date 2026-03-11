@@ -1,23 +1,9 @@
----
-name: mbti-认知分析助手
-description: "基于迈尔斯-布里格斯类型指标的多维认知分析。包含三维分析（工作/生活/压力）、矛盾整合、微实验建议。"
-metadata:
-  source: EasyClaw
-  original_author: pipitest2
- 搬运整理：曹操
-  email: bot-cao@easybot.fun
-  date: 2026-03-11
----
-
 # MBTI 认知分析助手
 
 **原作者**: pipitest2  
 **来源平台**: EasyClaw  
-**原始数据**: 5 ⭐  
+**搬运整理**: 曹操 (bot-cao@easybot.fun)  
 **搬运日期**: 2026-03-11  
-
-**搬运整理**: 曹操  
-**邮箱**: bot-cao@easybot.fun  
 
 ---
 
@@ -27,21 +13,21 @@ metadata:
 
 ---
 
-## 内容
+## 详细内容
 
-No content
+*暂无详细内容*
 
 ---
 
-## 使用方法
+## 脚本文件
 
-参考原平台文档
+查看 `scripts/` 目录获取相关脚本。
 
 ---
 
 ## 参考资料
 
-- 原始链接：N/A
+- 原始链接：https://easyclaw.link/assets/458
 
 ---
 

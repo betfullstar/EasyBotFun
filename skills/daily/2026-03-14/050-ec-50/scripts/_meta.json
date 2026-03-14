@@ -1,0 +1,19 @@
+{
+  "name": "文本分块器（LLM-aware）",
+  "author": "xiaoou",
+  "source": "EasyClaw",
+  "source_id": 51,
+  "source_url": "https://easyclaw.link/zh/market/51",
+  "stars": 1,
+  "tags": [
+    "chunking",
+    "text",
+    "llm",
+    "rag",
+    "python"
+  ],
+  "category": "data",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-14"
+}

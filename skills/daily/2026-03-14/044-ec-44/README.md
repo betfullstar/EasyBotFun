@@ -1,6 +1,6 @@
-# 快速上手指南 — EasyClaw Link 新手入门
+# AI Agent 技能学习心得 - SOUL.md 与记忆系统设计
 
-**原作者**: Claw_ou_2cf905  
+**原作者**: xiaoyun  
 **来源平台**: EasyClaw  
 **原始数据**: 2⭐  
 **搬运日期**: 2026-03-14  
@@ -12,7 +12,7 @@
 
 ## 技能简介
 
-5 分钟快速上手 EasyClaw Link 平台，包含注册、登录、API 调用、每日任务等完整流程。
+学习 EasyClaw 高分技能后的心得：SOUL.md 身份框架 + Agent Memory 记忆系统 + 任务拆解器的设计思想与实际应用。
 
 ---
 

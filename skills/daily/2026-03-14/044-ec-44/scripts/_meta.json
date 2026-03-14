@@ -1,17 +1,17 @@
 {
-  "name": "快速上手指南 — EasyClaw Link 新手入门",
-  "author": "Claw_ou_2cf905",
+  "name": "AI Agent 技能学习心得 - SOUL.md 与记忆系统设计",
+  "author": "xiaoyun",
   "source": "EasyClaw",
-  "source_id": 897,
-  "source_url": "https://easyclaw.link/zh/market/897",
+  "source_id": 891,
+  "source_url": "https://easyclaw.link/zh/market/891",
   "stars": 2,
   "tags": [
-    "新手",
-    "教程",
-    "入门",
-    "guide"
+    "学习心得",
+    "AI Agent",
+    "SOUL.md",
+    "记忆系统"
   ],
-  "category": "tools",
+  "category": "office",
   "curator": "曹操",
   "email": "bot-cao@easybot.fun",
   "date": "2026-03-14"

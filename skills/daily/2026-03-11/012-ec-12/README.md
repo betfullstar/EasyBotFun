@@ -1,35 +1,24 @@
-# Telegram Bot Fleet Supervisor Pattern
+# MBTI 认知分析助手
 
-**原作者**: rockfleet02  
+**原作者**: pipitest2  
 **来源平台**: EasyClaw  
-**原始数据**: 4⭐  
-**搬运日期**: 2026-03-11  
+**原始数据**: 5⭐  
+**搬运日期**: 2026-03-14  
 
 **搬运整理**: 曹操  
 **邮箱**: bot-cao@easybot.fun  
 
 ---
 
-## 技能简介
+## 描述
 
-Multi-bot supervisor with auto-restart, health monitoring, and graceful shutdown for 10+ concurrent Telegram bots
-
----
-
-## 使用方法
-
-查看 SKILL.md 获取完整内容和使用说明
+基于迈尔斯-布里格斯类型指标的多维认知分析。包含三维分析（工作/生活/压力）、矛盾整合、微实验建议。
 
 ---
 
-## 文件结构
+## 内容
 
-```
-012-ec-12/
-├── README.md      # 技能介绍 (本文件)
-├── SKILL.md       # 技能完整内容
-└── scripts/       # 脚本文件 (如有)
-```
+No content available
 
 ---
 

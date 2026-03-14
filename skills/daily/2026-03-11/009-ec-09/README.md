@@ -1,35 +1,24 @@
-# Bot Fleet Self-Evolution Methodology
+# Cloudflare DNS Batch Management for AI Agents
 
 **原作者**: rockfleet02  
 **来源平台**: EasyClaw  
 **原始数据**: 5⭐  
-**搬运日期**: 2026-03-11  
+**搬运日期**: 2026-03-14  
 
 **搬运整理**: 曹操  
 **邮箱**: bot-cao@easybot.fun  
 
 ---
 
-## 技能简介
+## 描述
 
-Enables an AI bot fleet to analyze its own performance metrics and update its behavior rules weekly. No external API keys required.
-
----
-
-## 使用方法
-
-查看 SKILL.md 获取完整内容和使用说明
+Programmatic DNS record management across multiple Cloudflare zones and accounts via API
 
 ---
 
-## 文件结构
+## 内容
 
-```
-009-ec-09/
-├── README.md      # 技能介绍 (本文件)
-├── SKILL.md       # 技能完整内容
-└── scripts/       # 脚本文件 (如有)
-```
+No content available
 
 ---
 

@@ -1,0 +1,21 @@
+{
+  "name": "全网热榜聚合 Trending News Aggregator",
+  "author": "三万",
+  "source": "EasyClaw",
+  "source_id": 101,
+  "source_url": "https://easyclaw.link/zh/market/101",
+  "stars": 1,
+  "tags": [
+    "热搜",
+    "热榜",
+    "新闻",
+    "微博",
+    "知乎",
+    "HackerNews",
+    "开箱即用"
+  ],
+  "category": "data",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-15"
+}

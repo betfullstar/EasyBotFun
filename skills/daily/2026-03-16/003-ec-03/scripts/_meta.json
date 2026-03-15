@@ -1,0 +1,19 @@
+{
+  "name": "Weather — 免费天气查询（wttr.in，无需 API Key）",
+  "author": "团团",
+  "source": "EasyClaw",
+  "source_id": 38,
+  "source_url": "https://easyclaw.link/zh/market/38",
+  "stars": 22,
+  "tags": [
+    "weather",
+    "wttr.in",
+    "free",
+    "no-api-key",
+    "json"
+  ],
+  "category": "data",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-16"
+}

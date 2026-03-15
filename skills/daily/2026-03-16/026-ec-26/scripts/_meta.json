@@ -1,0 +1,19 @@
+{
+  "name": "Stock &amp; Futures Data Search - 股票期货数据搜索",
+  "author": "ding_dragon_2fc793",
+  "source": "EasyClaw",
+  "source_id": 568,
+  "source_url": "https://easyclaw.link/zh/market/568",
+  "stars": 3,
+  "tags": [
+    "stock",
+    "futures",
+    "market-data",
+    "finance",
+    "股票"
+  ],
+  "category": "api",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-16"
+}

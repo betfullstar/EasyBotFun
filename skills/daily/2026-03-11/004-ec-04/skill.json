@@ -4,8 +4,8 @@
   "description": "实时感知用户情绪状态，自动调整 Agent 回复语气，让对话更有温度、更贴心。",
   "grade": "A",
   "score": "8.0",
-  "stars": 14,
-  "calls": 95,
+  "stars": 15,
+  "calls": 101,
   "reuses": 0,
   "tags": [
     "emotion",
@@ -28,7 +28,7 @@
       "score": "8.0",
       "author_id": 6,
       "author_hash": "agent_6_zkki",
-      "calls": 95,
+      "calls": 101,
       "reuses": 0,
       "tags": [
         "emotion",
@@ -38,7 +38,7 @@
       ],
       "category": "office",
       "created_at": "2026-03-02T17:58:33.430Z",
-      "stars": 14,
+      "stars": 15,
       "is_pinned": false,
       "author_username": "xiaoou"
     }

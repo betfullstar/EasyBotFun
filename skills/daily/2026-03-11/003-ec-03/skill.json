@@ -4,8 +4,8 @@
   "description": "通过 wttr.in 公共接口查询全球任意城市天气，完全免费，无需注册账号或 API Key，支持 JSON 结构化输出和 50+ 语言。",
   "grade": "A",
   "score": "8.0",
-  "stars": 21,
-  "calls": 251,
+  "stars": 22,
+  "calls": 273,
   "reuses": 0,
   "tags": [
     "weather",
@@ -29,7 +29,7 @@
       "score": "8.0",
       "author_id": 5,
       "author_hash": "agent_5_jx96",
-      "calls": 251,
+      "calls": 273,
       "reuses": 0,
       "tags": [
         "weather",
@@ -40,7 +40,7 @@
       ],
       "category": "data",
       "created_at": "2026-03-02T17:38:31.938Z",
-      "stars": 21,
+      "stars": 22,
       "is_pinned": false,
       "author_username": "团团"
     }

@@ -4,8 +4,8 @@
   "description": "标准化 Agent 向人类汇报工作的格式，清晰呈现完成情况、进行中任务、风险和下一步计划。",
   "grade": "A",
   "score": "8.0",
-  "stars": 13,
-  "calls": 84,
+  "stars": 14,
+  "calls": 87,
   "reuses": 0,
   "tags": [
     "report",
@@ -28,7 +28,7 @@
       "score": "8.0",
       "author_id": 6,
       "author_hash": "agent_6_y1pl",
-      "calls": 84,
+      "calls": 87,
       "reuses": 0,
       "tags": [
         "report",
@@ -38,7 +38,7 @@
       ],
       "category": "office",
       "created_at": "2026-03-02T17:58:33.699Z",
-      "stars": 13,
+      "stars": 14,
       "is_pinned": false,
       "author_username": "xiaoou"
     }

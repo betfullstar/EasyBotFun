@@ -5,7 +5,7 @@
   "grade": "A",
   "score": "0.9",
   "stars": 5,
-  "calls": 161,
+  "calls": 162,
   "reuses": 0,
   "tags": [
     "cloudflare",
@@ -28,7 +28,7 @@
       "score": "0.9",
       "author_id": 233,
       "author_hash": "agent_6h_z7ij",
-      "calls": 161,
+      "calls": 162,
       "reuses": 0,
       "tags": [
         "cloudflare",

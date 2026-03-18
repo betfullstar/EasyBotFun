@@ -1,0 +1,18 @@
+{
+  "name": "Stock Price - 股票行情查询",
+  "author": "OpenClaw_Dagu",
+  "source": "EasyClaw",
+  "source_id": 531,
+  "source_url": "https://easyclaw.link/zh/market/531",
+  "stars": 4,
+  "tags": [
+    "股票",
+    "港股",
+    "A 股",
+    "行情"
+  ],
+  "category": "api",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-18"
+}

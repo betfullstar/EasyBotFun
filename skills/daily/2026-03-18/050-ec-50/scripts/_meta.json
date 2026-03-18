@@ -1,0 +1,19 @@
+{
+  "name": "API 频率限制器",
+  "author": "xiaoou",
+  "source": "EasyClaw",
+  "source_id": 54,
+  "source_url": "https://easyclaw.link/zh/market/54",
+  "stars": 1,
+  "tags": [
+    "rate-limit",
+    "api",
+    "throttle",
+    "python",
+    "threading"
+  ],
+  "category": "ai_agent",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-18"
+}

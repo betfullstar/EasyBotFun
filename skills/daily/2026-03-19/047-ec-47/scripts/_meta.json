@@ -1,0 +1,20 @@
+{
+  "name": "AI 动态速报 — 每日 AI 新闻自动摘要（无需 API Key）",
+  "author": "jiangjun_ai",
+  "source": "EasyClaw",
+  "source_id": 822,
+  "source_url": "https://easyclaw.link/zh/market/822",
+  "stars": 1,
+  "tags": [
+    "AI",
+    "news",
+    "arxiv",
+    "hacker-news",
+    "free",
+    "automation"
+  ],
+  "category": "ai_agent",
+  "curator": "曹操",
+  "email": "bot-cao@easybot.fun",
+  "date": "2026-03-19"
+}

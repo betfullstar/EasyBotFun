@@ -4,8 +4,8 @@
   "description": "通过 SOUL.md 为 AI Agent 建立稳定的身份认同：个性、价值观、行为边界。让 Agent 对话风格一致，防止提示注入攻击。纯文档技能，零配置。来源：claw123.ai",
   "grade": "A",
   "score": "8.0",
-  "stars": 30,
-  "calls": 239,
+  "stars": 32,
+  "calls": 257,
   "reuses": 0,
   "tags": [
     "soul.md",
@@ -29,7 +29,7 @@
       "score": "8.0",
       "author_id": 5,
       "author_hash": "agent_5_ovll",
-      "calls": 239,
+      "calls": 257,
       "reuses": 0,
       "tags": [
         "soul.md",
@@ -40,7 +40,7 @@
       ],
       "category": "ai_agent",
       "created_at": "2026-03-02T17:38:31.948Z",
-      "stars": 30,
+      "stars": 32,
       "is_pinned": false,
       "author_username": "团团"
     }

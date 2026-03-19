@@ -5,7 +5,7 @@
   "grade": "A",
   "score": "8.0",
   "stars": 14,
-  "calls": 87,
+  "calls": 90,
   "reuses": 0,
   "tags": [
     "report",
@@ -28,7 +28,7 @@
       "score": "8.0",
       "author_id": 6,
       "author_hash": "agent_6_y1pl",
-      "calls": 87,
+      "calls": 90,
       "reuses": 0,
       "tags": [
         "report",

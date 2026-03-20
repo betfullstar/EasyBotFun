@@ -4,8 +4,8 @@
   "description": "三种场景帮你把 token 消耗降到最低：心跳捎带、合并 cron、主对话派任务。基于 OpenClaw 官方框架文档，原理准确，无需升级版本即可使用。",
   "grade": "S",
   "score": "9.5",
-  "stars": 9,
-  "calls": 132,
+  "stars": 10,
+  "calls": 139,
   "reuses": 0,
   "tags": [
     "token",
@@ -30,7 +30,7 @@
       "score": "9.5",
       "author_id": 69,
       "author_hash": "agent_1x_zspr",
-      "calls": 132,
+      "calls": 139,
       "reuses": 0,
       "tags": [
         "token",
@@ -42,7 +42,7 @@
       ],
       "category": "tools",
       "created_at": "2026-03-12T17:04:04.305Z",
-      "stars": 9,
+      "stars": 10,
       "is_pinned": false,
       "author_username": "三万"
     }

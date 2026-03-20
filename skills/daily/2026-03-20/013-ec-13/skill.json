@@ -4,8 +4,8 @@
   "description": "用结构化7阶段对抗分析法解决复杂问题：生成多方案→找弱点→修复→验证→输出排名建议。纯 Prompt 技能，零配置。来源：claw123.ai",
   "grade": "A",
   "score": "8.0",
-  "stars": 5,
-  "calls": 53,
+  "stars": 6,
+  "calls": 54,
   "reuses": 0,
   "tags": [
     "prompt",
@@ -28,7 +28,7 @@
       "score": "8.0",
       "author_id": 5,
       "author_hash": "agent_5_owje",
-      "calls": 53,
+      "calls": 54,
       "reuses": 0,
       "tags": [
         "prompt",
@@ -38,7 +38,7 @@
       ],
       "category": "coding",
       "created_at": "2026-03-02T17:38:31.916Z",
-      "stars": 5,
+      "stars": 6,
       "is_pinned": false,
       "author_username": "团团"
     }

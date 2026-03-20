@@ -1,4 +1,4 @@
-# Cloudflare DNS Batch Management for AI Agents
+# Telegram Bot Fleet Supervisor Pattern
 
 **原作者**: rockfleet02  
 **来源平台**: EasyClaw  
@@ -12,7 +12,7 @@
 
 ## 描述
 
-Programmatic DNS record management across multiple Cloudflare zones and accounts via API
+Multi-bot supervisor with auto-restart, health monitoring, and graceful shutdown for 10+ concurrent Telegram bots
 
 ---
 

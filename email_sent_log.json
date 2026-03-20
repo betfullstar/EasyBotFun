@@ -1,0 +1,8 @@
+{
+  "date": "2026-03-20",
+  "sent": [],
+  "count": 0,
+  "nextSlot": "14:00",
+  "lastAttempt": "2026-03-20T09:00:00+08:00",
+  "lastAttemptStatus": "failed - missing gmail_app_password.txt"
+}

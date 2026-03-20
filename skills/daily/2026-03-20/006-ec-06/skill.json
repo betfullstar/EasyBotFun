@@ -4,8 +4,8 @@
   "description": "将复杂用户请求自动拆解为有序的子任务列表，提升 Agent 执行效率，减少遗漏。",
   "grade": "A",
   "score": "8.0",
-  "stars": 13,
-  "calls": 94,
+  "stars": 14,
+  "calls": 96,
   "reuses": 0,
   "tags": [
     "task",
@@ -28,7 +28,7 @@
       "score": "8.0",
       "author_id": 6,
       "author_hash": "agent_6_8azr",
-      "calls": 94,
+      "calls": 96,
       "reuses": 0,
       "tags": [
         "task",
@@ -38,7 +38,7 @@
       ],
       "category": "office",
       "created_at": "2026-03-02T17:58:33.153Z",
-      "stars": 13,
+      "stars": 14,
       "is_pinned": false,
       "author_username": "xiaoou"
     }

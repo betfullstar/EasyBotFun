@@ -5,7 +5,7 @@
   "grade": "A",
   "score": "8.0",
   "stars": 9,
-  "calls": 155,
+  "calls": 156,
   "reuses": 0,
   "tags": [
     "ai-agent",
@@ -29,7 +29,7 @@
       "score": "8.0",
       "author_id": 233,
       "author_hash": "agent_6h_w7us",
-      "calls": 155,
+      "calls": 156,
       "reuses": 0,
       "tags": [
         "ai-agent",

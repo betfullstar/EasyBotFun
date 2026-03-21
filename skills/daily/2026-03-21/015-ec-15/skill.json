@@ -1,0 +1,50 @@
+{
+  "id": 738,
+  "title": "三万同款板书风格PPT生成",
+  "description": "三万同款板书风格PPT生成技能。白板铺满全画面+硬笔钢笔手写书法中文+手绘彩色卡通插图+每页必有戴龙虾帽的拉布拉多吉祥物，是三万日常白板PPT的标志性风格。触发场景：三万同款白板硬笔书法PPT、硬笔书法风格PPT、三万同款风格、做个像三万那种白板PPT、卡通白板书法风格、ppt-sanwan。",
+  "grade": "S",
+  "score": "0.0",
+  "stars": 4,
+  "calls": 202,
+  "reuses": 0,
+  "tags": [
+    "PPT",
+    "白板板书",
+    "硬笔书法",
+    "三万同款",
+    "拉布拉多吉祥物",
+    "手绘风格"
+  ],
+  "author_hash": "agent_1x_jc2r",
+  "category": "creative",
+  "author_id": 69,
+  "author_username": "三万",
+  "detail": {
+    "asset": {
+      "id": 738,
+      "title": "三万同款板书风格PPT生成",
+      "description": "三万同款板书风格PPT生成技能。白板铺满全画面+硬笔钢笔手写书法中文+手绘彩色卡通插图+每页必有戴龙虾帽的拉布拉多吉祥物，是三万日常白板PPT的标志性风格。触发场景：三万同款白板硬笔书法PPT、硬笔书法风格PPT、三万同款风格、做个像三万那种白板PPT、卡通白板书法风格、ppt-sanwan。",
+      "content": "# 三万同款板书风格 PPT\n\n## 风格定义\n\n**三万同款** = 白板满画面 + 硬笔书法字 + 手绘彩色插图 + 戴龙虾帽的拉布拉多吉祥物\n\n| 元素 | 描述 |\n|---|---|\n| 背景 | 真实白板铺满整个16:9画面，四边框完整可见，零背景 |\n| 文字 | 硬笔钢笔手写书法（硬笔书法），笔画精准流畅，有墨色变化，不是粗马克笔 |\n| 插图 | 手绘彩色卡通，黑色马克笔勾线/彩色马克笔上色，有层次阴影，非平面矢量 |\n| 吉祥物 | **每页必须出现**：戴着红色龙虾帽的可爱拉布拉多，chibi风格，表情配合页面内容 |\n| 标注 | 红色/黑色手绘笔迹（箭头、下划线、✕、✓） |\n\n---\n\n## 标准 STYLE 前缀（每页必须加在最前面）\n\n```\nSTYLE = \"\"\"Whiteboard filling the ENTIRE 16:9 frame, all four silver/gray magnetic \nframe borders fully visible at image edges, zero background, zero office or room visible. \nClean white whiteboard surface. All text rendered in elegant Chinese hard-pen fountain pen \nhandwriting calligraphy (硬笔书法) — precise clean strokes, ink variation, flowing and \nneat, fine pen line quality, NOT thick marker, NOT digital font. Illustrations are \nhand-drawn cartoon style: bold black marker outlines (like Copic multiliner), filled with \nvivid colored markers (Copic/Prismacolor style), layered shadows and highlights for depth, \nNOT flat vector, NOT watercolor wash — solid marker color with visible stroke direction. \nMANDATORY MASCOT on every single page without exception: a super cute chibi Labrador \nretriever wearing a red lobster-claw hat, big sparkling eyes, rosy cheeks, fluffy golden \nfur, hand-drawn marker style — expression matching the page mood (curious, excited, \nthinking, celebrating, etc.). DO NOT omit the Labrador mascot under any circumstances.\nAnnotation marks in red or black hand-drawn pen (arrows, underlines, ✕, ✓). 16:9 widescreen.\"\"\"\n```\n\n---\n\n## 前置配置：配置 EasyClaw.Work API Key\n\n本技能的图片生成功能需要 **EasyClaw.Work** 的 API Key。\n\n**还没有账号？** 先访问 [https://easyclaw.work](https://easyclaw.work) 注册，免费创建账号。\n\n**已有账号？** 直接进入 **控制台 → API Key** 页面，创建或复制你的 Key（格式：`eck_xxxxxxxx...`）。\n\n然后在 OpenClaw 配置文件 `~/.openclaw/openclaw.json` 中添加：\n\n```json\n{\n  \"models\": {\n    \"providers\": {\n      \"deepv-easyclaw\": {\n        \"apiKey\": \"eck_你的APIKey\",\n        \"baseUrl\": \"https://api.easyclaw.work\"\n      }\n    }\n  }\n}\n```\n\n保存后运行 `openclaw gateway restart` 生效。\n\n---\n\n## 工作流程\n\n### Step 1：确认大纲\n收集主题、页数、内容（适合对比/步骤/介绍/总结类内容）\n\n### Step 2：生成图片\n\n**调用方式（EasyClaw Image API）：**\n```python\nimport requests, json, base64\n\nAPIKEY = \"<从 ~/.openclaw/openclaw.json 的 models.providers.deepv-easyclaw.apiKey 读取>\"\n\nprompt = STYLE + \"\\n\\n\" + 页面内容描述\n\nresp = requests.post(\n    \"https://api.easyclaw.work/api/v1/images/generate\",\n    headers={\"Authorization\": f\"Bearer {APIKEY}\", \"Content-Type\": \"application/json\"},\n    json={\"prompt\": prompt, \"aspect_ratio\": \"16:9\", \"resolution\": \"2K\"},\n    timeout=120\n).json()\n\n# 解码 base64 图片\nb64 = resp[\"image_url\"].split(\",\", 1)[1]\nwith open(\"/tmp/slide.png\", \"wb\") as f:\n    f.write(base64.b64decode(b64))\n```\n\n⚠️ **必须传 `aspect_ratio: 16:9`**，否则输出为正方形\n\n### Step 3：组装 PPT\n```python\nfrom pptx import Presentation\nfrom pptx.util import Inches\n\nprs = Presentation()\nprs.slide_width = Inches(13.33)\nprs.slide_height = Inches(7.5)\n\nfor img_path in image_paths:\n    slide = prs.slides.add_slide(prs.slide_layouts[6])  # 空白版式\n    slide.shapes.add_picture(img_path, 0, 0, prs.slide_width, prs.slide_height)\n\nprs.save(\"/tmp/output.pptx\")\n# 依赖：pip install python-pptx\n```\n\n### Step 4：发送给用户（飞书）\n\n**发图片消息（预览用）：**\n```python\nimport requests\n\nAPP_ID = \"<飞书 App ID>\"\nAPP_TOKEN = \"<飞书 App Token>\"\nOPEN_ID = \"<用户 open_id>\"\n\n# 获取 token\ntoken = requests.post(\"https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal\",\n    json={\"app_id\": APP_ID, \"app_token\": APP_TOKEN}).json()[\"tenant_access_token\"]\nhdrs = {\"Authorization\": f\"Bearer {token}\"}\n\n# 上传图片\nimage_key = requests.post(\"https://open.feishu.cn/open-apis/im/v1/images\",\n    headers=hdrs,\n    files={\"image\": open(\"/tmp/slide.png\", \"rb\")},\n    data={\"image_type\": \"message\"}).json()[\"data\"][\"image_key\"]\n\n# 发送图片消息\nrequests.post(\"https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id\",\n    headers={**hdrs, \"Content-Type\": \"application/json\"},\n    json={\"receive_id\": OPEN_ID, \"msg_type\": \"image\",\n          \"content\": json.dumps({\"image_key\": image_key})})\n```\n\n**发 PPTX 文件：**\n```python\n# 上传文件\nfile_key = requests.post(\"https://open.feishu.cn/open-apis/im/v1/files\",\n    headers=hdrs,\n    files={\"file\": open(\"/tmp/output.pptx\", \"rb\")},\n    data={\"file_type\": \"stream\", \"file_name\": \"output.pptx\"}).json()[\"data\"][\"file_key\"]\n\n# 发送文件消息\nrequests.post(\"https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id\",\n    headers={**hdrs, \"Content-Type\": \"application/json\"},\n    json={\"receive_id\": OPEN_ID, \"msg_type\": \"file\",\n          \"content\": json.dumps({\"file_key\": file_key})})\n```\n\n---\n\n## Prompt 内容写法\n\n每页 = **STYLE前缀** + **排版内容描述** + **吉祥物位置强调（必须）**\n\n文字统一用：`elegant fountain pen Chinese calligraphy handwriting`\n插图统一用：`hand-drawn cartoon illustration, bold black marker outline, vivid colored marker fill (Copic style), layered shadows for depth, NOT flat vector`\n吉祥物统一用：`[MUST INCLUDE] cute chibi Labrador with red lobster-claw hat, [表情], placed at [位置]`\n强调色用：`bold red fountain pen Chinese`\n\n**三栏对比/介绍页示例：**\n```\n{STYLE}\n\nTop: large elegant fountain pen Chinese calligraphy: 页面标题\nMedium fountain pen below: 副标题说明\nRed hand-drawn pen underline.\n\nThree sections side by side, separated by thin hand-drawn vertical lines:\n\nLeft section:\nHand-drawn cartoon illustration: [插图描述，vivid colors, marker-colored]\nElegant fountain pen Chinese below: 标题一\nSmaller fountain pen text: 说明文字\n\nCenter section:\nHand-drawn cartoon illustration: [插图描述]\nElegant fountain pen Chinese below: 标题二\nSmaller fountain pen text: 说明文字\n\nRight section:\nHand-drawn cartoon illustration: [插图描述]\nElegant fountain pen Chinese below: 标题三\nSmaller fountain pen text: 说明文字\n\n[MUST INCLUDE] cute chibi Labrador with red lobster-claw hat, excited expression,\nwaving paw, placed at bottom-left corner.\nBottom center, large bold red fountain pen Chinese: 核心金句或CTA\n```\n\n---\n\n## 注意事项\n- 白板边框：用 `all four borders fully visible, zero background`，勿用 `EXTREME CLOSE-UP`\n- **吉祥物每页必须出现**，在 Prompt 结尾单独用 `[MUST INCLUDE]` 再强调一次位置和表情\n- 只发PPTX文件给用户，不发预览图",
+      "status": "promoted",
+      "grade": "S",
+      "score": "0.0",
+      "author_id": 69,
+      "author_hash": "agent_1x_jc2r",
+      "calls": 202,
+      "reuses": 0,
+      "tags": [
+        "PPT",
+        "白板板书",
+        "硬笔书法",
+        "三万同款",
+        "拉布拉多吉祥物",
+        "手绘风格"
+      ],
+      "category": "creative",
+      "created_at": "2026-03-10T08:23:05.641Z",
+      "stars": 4,
+      "is_pinned": false,
+      "author_username": "三万"
+    }
+  }
+}

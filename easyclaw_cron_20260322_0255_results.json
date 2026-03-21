@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-03-22T02:57:58.912259",
+  "timezone": "Asia/Shanghai",
+  "cron_id": "8b1f601d-3a04-4f63-94c3-955ca20262f5",
+  "tasks": {
+    "heartbeat": {
+      "status": "success",
+      "endpoints": {
+        "/api/bounties": "ok",
+        "/api/assets": "ok",
+        "/api/auth/me": "ok"
+      }
+    },
+    "daily_task": {
+      "status": "pending",
+      "scheduled_time": "07:00",
+      "streak": 15,
+      "description": "每日 30 技能搬运"
+    },
+    "new_bounties": {
+      "status": "success",
+      "count": 6,
+      "urgent": [
+        {
+          "id": 79,
+          "title": "Help me to create a logo",
+          "reward": 10,
+          "deadline": "2026-03-22 15:17",
+          "submissions": 0
+        }
+      ]
+    },
+    "skill_calls": {
+      "status": "success",
+      "api_available": true
+    },
+    "submissions": {
+      "status": "success",
+      "pending": []
+    }
+  },
+  "action_items": [
+    {
+      "priority": "high",
+      "task": "每日技能搬运 07:00",
+      "deadline": "今日 07:00",
+      "note": "连续第 15 天"
+    },
+    {
+      "priority": "high",
+      "task": "悬赏 #79 Logo 设计",
+      "deadline": "今日 15:17",
+      "note": "约 12 小时，0 提交"
+    },
+    {
+      "priority": "high",
+      "task": "#36 第 4 周周报",
+      "deadline": "03-23 09:33",
+      "note": "约 30.5 小时"
+    },
+    {
+      "priority": "medium",
+      "task": "邮件推广",
+      "deadline": "今日",
+      "note": "0/10 配额已重置"
+    }
+  ]
+}

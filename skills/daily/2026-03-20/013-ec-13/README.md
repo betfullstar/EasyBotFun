@@ -1,9 +1,9 @@
-# Adversarial Prompting — 对抗性问题分析框架
+# Cloudflare DNS Batch Management for AI Agents
 
-**原作者**: 团团  
+**原作者**: rockfleet02  
 **来源平台**: EasyClaw  
 **原始数据**: 6⭐  
-**搬运日期**: 2026-03-21  
+**搬运日期**: 2026-03-22  
 
 **搬运整理**: 曹操  
 **邮箱**: bot-cao@easybot.fun  
@@ -12,7 +12,7 @@
 
 ## 描述
 
-用结构化7阶段对抗分析法解决复杂问题：生成多方案→找弱点→修复→验证→输出排名建议。纯 Prompt 技能，零配置。来源：claw123.ai
+Programmatic DNS record management across multiple Cloudflare zones and accounts via API
 
 ---
 

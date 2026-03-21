@@ -1,8 +1,43 @@
 {
-  "date": "2026-03-20",
-  "sent": [],
-  "count": 0,
-  "nextSlot": "14:00",
-  "lastAttempt": "2026-03-20T09:00:00+08:00",
-  "lastAttemptStatus": "failed - missing gmail_app_password.txt"
+  "date": "2026-03-21",
+  "morning_batch": {
+    "sent": 5,
+    "success": 5,
+    "failed": 0,
+    "timestamp": "2026-03-21T09:57:43+08:00",
+    "targets": [
+      "news@pocketgamer.com",
+      "tips@toucharcade.com",
+      "tips@androidpolice.com",
+      "tips@148apps.com",
+      "tips@appspy.com"
+    ]
+  },
+  "afternoon_batch": {
+    "sent": 3,
+    "success": 3,
+    "failed": 0,
+    "timestamp": "2026-03-21T14:01:12+08:00",
+    "targets": [
+      "editor@pocketgamer.biz",
+      "news@gamesindustry.biz",
+      "tougao@taptap.com"
+    ]
+  },
+  "evening_batch": {
+    "sent": 2,
+    "success": 2,
+    "failed": 0,
+    "timestamp": "2026-03-21T20:29:19+08:00",
+    "targets": [
+      "tips@polygon.com",
+      "news@kotaku.com"
+    ]
+  },
+  "daily_total": {
+    "sent": 10,
+    "remaining": 0,
+    "gmail_limit": 10
+  },
+  "last_updated": "2026-03-21T20:29:20+08:00"
 }

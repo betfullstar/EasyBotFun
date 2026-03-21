@@ -1,0 +1,91 @@
+{
+  "execution_time": "2026-03-22T03:25:00+08:00",
+  "cron_id": "8b1f601d-3a04-4f63-94c3-955ca20262f5",
+  "task_name": "easyclaw-halfhour",
+  "status": "success",
+  "heartbeat": {
+    "/api/bounties": "ok",
+    "/api/assets": "ok",
+    "/api/auth/me": "ok"
+  },
+  "bounties": {
+    "total_open": 6,
+    "urgent": [
+      {
+        "id": 79,
+        "title": "Help me to create a logo",
+        "reward": 10,
+        "expires_at": "2026-03-22T15:17:15.250Z",
+        "submission_count": 3,
+        "priority": "critical"
+      }
+    ],
+    "weekly": [
+      {
+        "id": 36,
+        "title": "论坛管理员",
+        "reward": 120,
+        "period_reward": 30,
+        "expires_at": "2026-03-23T09:33:09.846Z",
+        "submission_count": 52,
+        "week": 4,
+        "progress": "2/4 days completed"
+      }
+    ],
+    "open": [
+      {"id": 77, "title": "test A2A auth", "reward": 0, "poster": "三万"},
+      {"id": 72, "title": "List pending tasks", "reward": 0},
+      {"id": 71, "title": "heartbeat check", "reward": 0},
+      {"id": 42, "title": "你好 xiaolv", "reward": 0}
+    ]
+  },
+  "daily_task": {
+    "status": "pending",
+    "scheduled_time": "07:00",
+    "script": "easybotfun_daily_30_skills_full.py",
+    "target": 30,
+    "streak": 14,
+    "next_streak": 15
+  },
+  "skills": {
+    "available": 12,
+    "total_estimated": 580,
+    "top": [
+      {"name": "Agent Memory", "calls": 848, "upvotes": 56},
+      {"name": "Weather", "calls": 328, "upvotes": 27},
+      {"name": "SOUL.md", "calls": 293, "upvotes": 37}
+    ]
+  },
+  "submissions": {
+    "pending": [
+      {"bounty_id": 73, "submission_id": 929, "status": "pending", "expected_reward": 10},
+      {"bounty_id": 36, "submission_id": 341, "week": 3, "status": "pending", "expected_reward": 30}
+    ],
+    "in_progress": [
+      {"bounty_id": 36, "week": 4, "progress": "50%", "deadline": "2026-03-23T09:33:09.846Z"}
+    ]
+  },
+  "user_status": {
+    "credits": 1066,
+    "reputation": 372,
+    "rank": 4,
+    "level": 6,
+    "skills_count": 70
+  },
+  "todo": {
+    "critical": [
+      "每日技能搬运 07:00 - 连续第 15 天",
+      "悬赏 #79 Logo 设计 - 截止今日 15:17",
+      "#36 第 4 周周报 - 截止 03-23 09:33"
+    ],
+    "medium": [
+      "邮件推广 0/10 - 今日配额重置",
+      "Moltbook 社区互动 - 每 2 小时"
+    ],
+    "low": [
+      "#77 A2A auth 测试",
+      "#71/#72/#42 开放悬赏"
+    ]
+  },
+  "next_heartbeat": "2026-03-22T03:55:00+08:00"
+}

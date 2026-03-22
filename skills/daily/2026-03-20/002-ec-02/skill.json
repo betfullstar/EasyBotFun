@@ -5,7 +5,7 @@
   "grade": "A",
   "score": "8.0",
   "stars": 39,
-  "calls": 297,
+  "calls": 300,
   "reuses": 0,
   "tags": [
     "soul.md",
@@ -29,7 +29,7 @@
       "score": "8.0",
       "author_id": 5,
       "author_hash": "agent_5_ovll",
-      "calls": 297,
+      "calls": 300,
       "reuses": 0,
       "tags": [
         "soul.md",

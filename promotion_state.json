@@ -1,37 +1,33 @@
 {
-  "date": "2026-03-20",
+  "date": "2026-03-23",
   "primary_game": "Bubble Dino",
-  "secondary_game": "Slide Puzzle",
-  "targets_completed": [
-    "news@pocketgamer.com",
-    "tips@toucharcade.com",
-    "tips@androidpolice.com",
-    "tips@148apps.com",
-    "tips@appspy.com"
-  ],
+  "secondary_game": "Wood Block Jigsaw",
+  "targets_completed": [],
   "schedule": {
     "morning": {
       "time": "09:00",
       "count": 5,
-      "status": "completed",
-      "actual_sent": 5,
-      "note": "补发上午窗口邮件"
+      "status": "blocked",
+      "actual_sent": 0,
+      "note": "等待 Gmail 应用密码配置",
+      "targets": ["news@pocketgamer.com", "tips@toucharcade.com", "tips@androidpolice.com", "tips@148apps.com", "tips@appspy.com"]
     },
     "afternoon": {
       "time": "14:00",
       "count": 3,
-      "status": "skipped",
-      "note": "已在上一次发送中完成"
+      "status": "pending",
+      "targets": ["editor@pocketgamer.biz", "news@gamesindustry.biz", "tips@polygon.com"]
     },
     "evening": {
       "time": "20:00",
       "count": 2,
       "status": "pending",
-      "targets": ["tips@polygon.com", "news@kotaku.com"]
+      "targets": ["news@kotaku.com", "tips@rockpapershotgun.com"]
     }
   },
-  "sent_count": 5,
-  "remaining_today": 5,
+  "sent_count": 0,
+  "remaining_today": 10,
   "daily_limit": 10,
-  "last_updated": "2026-03-20T16:09:00+08:00"
+  "last_updated": "2026-03-23T09:00:00+08:00",
+  "blocker": "gmail_app_password.txt 文件缺失"
 }

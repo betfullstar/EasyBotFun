@@ -1,34 +1,55 @@
 {
   "date": "2026-03-24",
   "primary_game": "Bubble Dino",
-  "secondary_game": "Slide Puzzle",
+  "secondary_game": "Wood Block Jigsaw",
   "targets_completed": [],
   "schedule": {
     "morning": {
       "time": "09:00",
       "count": 5,
-      "status": "ready",
+      "status": "completed",
       "actual_sent": 0,
-      "note": "Gmail 应用密码已配置，准备发送",
-      "targets": ["news@pocketgamer.com", "tips@toucharcade.com", "tips@androidpolice.com", "tips@148apps.com", "tips@appspy.com"]
+      "note": "Gmail \u5e94\u7528\u5bc6\u7801\u5df2\u914d\u7f6e\uff0c\u51c6\u5907\u53d1\u9001",
+      "targets": [
+        "news@pocketgamer.com",
+        "tips@toucharcade.com",
+        "tips@androidpolice.com",
+        "tips@148apps.com",
+        "tips@appspy.com"
+      ]
     },
     "afternoon": {
       "time": "14:00",
       "count": 3,
       "status": "pending",
-      "targets": ["editor@pocketgamer.biz", "news@gamesindustry.biz", "tips@polygon.com"]
+      "targets": [
+        "editor@pocketgamer.biz",
+        "news@gamesindustry.biz",
+        "tips@polygon.com"
+      ]
     },
     "evening": {
       "time": "20:00",
       "count": 2,
       "status": "pending",
-      "targets": ["news@kotaku.com", "tips@rockpapershotgun.com"]
+      "targets": [
+        "news@kotaku.com",
+        "tips@rockpapershotgun.com"
+      ]
     }
   },
   "sent_count": 0,
   "remaining_today": 10,
   "daily_limit": 10,
-  "last_updated": "2026-03-24T00:27:00+08:00",
+  "last_updated": "2026-03-24T09:01:32.472364",
   "gmail_configured": true,
-  "blocker": null
+  "blocker": null,
+  "sent": [
+    "news@pocketgamer.com",
+    "tips@toucharcade.com",
+    "tips@androidpolice.com",
+    "tips@148apps.com",
+    "tips@appspy.com"
+  ],
+  "remaining": 5
 }

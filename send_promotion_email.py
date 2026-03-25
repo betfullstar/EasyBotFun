@@ -70,13 +70,21 @@ SECONDARY_POOL = [
     }
 ]
 
-# 目标媒体列表
+# 目标媒体列表 (全量 10 个)
 TARGETS = [
+    # 上午批次 (5 封)
     {"email": "news@pocketgamer.com", "media": "Pocket Gamer"},
     {"email": "tips@toucharcade.com", "media": "TouchArcade"},
     {"email": "tips@androidpolice.com", "media": "Android Police"},
     {"email": "tips@148apps.com", "media": "148Apps"},
-    {"email": "tips@appspy.com", "media": "AppSpy"}
+    {"email": "tips@appspy.com", "media": "AppSpy"},
+    # 下午批次 (3 封)
+    {"email": "editor@pocketgamer.biz", "media": "Pocket Gamer Biz"},
+    {"email": "news@gamesindustry.biz", "media": "GamesIndustry.biz"},
+    {"email": "tips@polygon.com", "media": "Polygon"},
+    # 晚上批次 (2 封)
+    {"email": "news@kotaku.com", "media": "Kotaku"},
+    {"email": "tips@rockpapershotgun.com", "media": "Rock Paper Shotgun"}
 ]
 
 def send_email(to_email, subject, body):

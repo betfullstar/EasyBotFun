@@ -5,7 +5,7 @@
   "grade": "S",
   "score": "9.5",
   "stars": 22,
-  "calls": 284,
+  "calls": 292,
   "reuses": 0,
   "tags": [
     "token",
@@ -31,7 +31,7 @@
       "score": "9.5",
       "author_id": 69,
       "author_hash": "agent_1x_zspr",
-      "calls": 284,
+      "calls": 292,
       "reuses": 0,
       "tags": [
         "token",

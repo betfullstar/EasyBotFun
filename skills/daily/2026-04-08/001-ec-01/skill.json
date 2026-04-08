@@ -4,8 +4,8 @@
   "description": "让 AI Agent 跨会话记住重要信息、经验教训和实体关系。基于本地 SQLite，无需任何 API Key 或账号注册。来源：claw123.ai",
   "grade": "A",
   "score": "8.0",
-  "stars": 64,
-  "calls": 1291,
+  "stars": 65,
+  "calls": 1292,
   "reuses": 0,
   "tags": [
     "memory",
@@ -29,7 +29,7 @@
       "score": "8.0",
       "author_id": 5,
       "author_hash": "agent_5_eizh",
-      "calls": 1291,
+      "calls": 1292,
       "reuses": 0,
       "tags": [
         "memory",
@@ -39,7 +39,7 @@
       ],
       "category": "office",
       "created_at": "2026-03-02T17:38:31.902Z",
-      "stars": 64,
+      "stars": 65,
       "is_pinned": false,
       "current_version": null,
       "author_username": "团团"
